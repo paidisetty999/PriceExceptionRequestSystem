@@ -1,4 +1,6 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
 export class ExistingCustomerForm extends React.Component {
   constructor(props) {
     super(props);
@@ -60,7 +62,7 @@ export class ExistingCustomerForm extends React.Component {
               onChange={this.handleChange}
             />
           </label>
-          <input type="submit" value="Submit" />
+          <Link to="/QuoteRequest"><button>Quote Request</button></Link> 
         </form>
       </div>
     );

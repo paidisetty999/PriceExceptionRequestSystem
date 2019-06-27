@@ -5,6 +5,7 @@ import './index.css';
 import App from './App';
 import {ExistingCustomerForm} from './ExistingCustomerForm.js';
 import {NewCustomerForm} from './NewCustomerForm.js';
+import {QuoteRequest} from './QuoteRequest.js';
 import * as serviceWorker from './serviceWorker';
 
 const routing = (
@@ -13,6 +14,7 @@ const routing = (
         <Route path="/" component={App} />
         <Route path="/ExistingCustomerForm" component={ExistingCustomerForm} />
         <Route path="/NewCustomerForm" component={NewCustomerForm} />
+        <Route path="/QuoteRequest" component={QuoteRequest} />
       </div>
     </Router>
   )
