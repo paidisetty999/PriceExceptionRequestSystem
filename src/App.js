@@ -1,25 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import { NewCustomerForm } from "./NewCustomerForm.js";
+import { ExistingCustomerForm } from "./ExistingCustomerForm.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div className="App">
+<h1>QMS Price Exception Request System</h1>
+        <h2>Customer Input</h2>
+        <button>NewCustomerForm</button>      
+    </div>    
+
   );
 }
 
